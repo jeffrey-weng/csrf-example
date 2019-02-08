@@ -1,4 +1,4 @@
-var express = require('./express');
+var express = require('express');
 
 module.exports.start = function() {
   var app = express.init();
