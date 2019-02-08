@@ -6,6 +6,8 @@ var path=require('path'),
 module.exports.init = function(){
 
 var app=express();
+	
+	 app.use(bodyParser.json());
 
 app.use('/',express.static('client'));
 
